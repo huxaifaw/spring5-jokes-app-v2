@@ -1,4 +1,4 @@
-		<dependency>
+	<dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>chuck-norris-for-actuator</artifactId>
             <version>2.4.0</version>
@@ -10,7 +10,7 @@
 		It is used to map incoming HTTP requests to handler method of MVC and REST Controllers.
 		When configuring Spring MVC, one should provide the mapping between Web Requests and Handler methods.
 		Mapping can be provided at Method level and Class level depending on your use case.
-		The annotated method returns a String which the view name that is to be displayed on screen when specific request in @RequestMapping is encountered.
+		The annotated method returns a String which the view name that is to be displayed on screen when specific request in @RequestMapping is 		encountered.
 
         <html lang="en" xmlns:th="http://www.thymeleaf.org">
         The above line gives us extensions of thymeleaf namespace.
